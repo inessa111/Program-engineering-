@@ -1,0 +1,10 @@
+@startuml classes
+set namespaceSeparator none
+class "A" as module.task_1.A {
+  a : int
+}
+class "B" as module.task_1.B {
+  b : int
+}
+module.task_1.B --|> module.task_1.A
+@enduml
