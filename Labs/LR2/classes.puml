@@ -1,0 +1,5 @@
+@startuml classes
+set namespaceSeparator none
+class "Singleton" as lr2_singleton.Singleton {
+}
+@enduml
